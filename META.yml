@@ -26,9 +26,9 @@ no_index:
 provides:
   FormValidator::Lite::Constraint::Mouse:
     file: lib/FormValidator/Lite/Constraint/Mouse.pm
-    version: 0.01
+    version: 0.02
 requires:
-  FormValidator::Lite: 0
+  FormValidator::Lite: 0.10
   Mouse: 0.90
   Mouse::Util::TypeConstraints: 0
   perl: 5.008003
@@ -36,4 +36,4 @@ resources:
   bugtracker: https://github.com/hideo55/p5-FormValidator-Lite-Constraint-Mouse/issues
   license: http://dev.perl.org/licenses/
   repository: git://github.com/hideo55/p5-FormValidator-Lite-Constraint-Mouse.git
-version: 0.01
+version: 0.02
