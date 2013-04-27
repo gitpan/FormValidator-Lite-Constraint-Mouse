@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Module::Build version 0.4004, CPAN::Meta::Converter version 2.130880'
 keywords:
   - Mouse
   - FormValidator::Lite
@@ -26,14 +26,14 @@ no_index:
 provides:
   FormValidator::Lite::Constraint::Mouse:
     file: lib/FormValidator/Lite/Constraint/Mouse.pm
-    version: 0.02
+    version: 0.03
 requires:
   FormValidator::Lite: 0.10
   Mouse: 0.90
   Mouse::Util::TypeConstraints: 0
   perl: 5.008003
 resources:
-  bugtracker: https://github.com/hideo55/p5-FormValidator-Lite-Constraint-Mouse/issues
+  bugtracker: https://github.com/hideo55/FormValidator-Lite-Constraint-Mouse/issues
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/hideo55/p5-FormValidator-Lite-Constraint-Mouse.git
-version: 0.02
+  repository: git://github.com/hideo55/FormValidator-Lite-Constraint-Mouse.git
+version: 0.03
