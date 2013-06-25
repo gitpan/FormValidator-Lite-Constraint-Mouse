@@ -4,7 +4,7 @@ use warnings;
 use FormValidator::Lite::Constraint;
 use Mouse::Util::TypeConstraints ();
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 my $get_constraint = \&Mouse::Util::TypeConstraints::find_type_constraint;
 
@@ -59,7 +59,7 @@ FormValidator::Lite::Constraint::Mouse - Use Mouse's type constraints.
 =head1 DESCRIPTION
 
 This module provides Mouse's type constraint as constraint rule of L<FormValidator::Lite>
-If you wanna know the constraint, see L<Mouse::Util::TypeConstraints> for details.
+If you want to know the constraint, see L<Mouse::Util::TypeConstraints> for details.
 
 =head1 AUTHOR
 

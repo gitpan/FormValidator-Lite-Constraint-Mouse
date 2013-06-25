@@ -1,17 +1,11 @@
 {
    "abstract" : "Use Mouse's type constraints.",
    "author" : [
-      "Hideaki Ohno<hide.o.j55@gmail.com>"
+      "Hideaki Ohno <hide.o.j55 {at} gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.4004, CPAN::Meta::Converter version 2.130880",
-   "keywords" : [
-      "Mouse",
-      "FormValidator::Lite"
-   ],
-   "license" : [
-      "perl_5"
-   ],
+   "generated_by" : "Minilla/v0.5.3",
+   "license" : "perl_5",
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -22,7 +16,10 @@
          "t",
          "xt",
          "inc",
-         "eg"
+         "share",
+         "eg",
+         "examples",
+         "author"
       ]
    },
    "prereqs" : {
@@ -34,7 +31,17 @@
       },
       "configure" : {
          "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
             "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
          }
       },
       "runtime" : {
@@ -49,7 +56,7 @@
    "provides" : {
       "FormValidator::Lite::Constraint::Mouse" : {
          "file" : "lib/FormValidator/Lite/Constraint/Mouse.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -57,12 +64,15 @@
       "bugtracker" : {
          "web" : "https://github.com/hideo55/FormValidator-Lite-Constraint-Mouse/issues"
       },
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
+      "homepage" : "https://github.com/hideo55/FormValidator-Lite-Constraint-Mouse",
       "repository" : {
-         "url" : "git://github.com/hideo55/FormValidator-Lite-Constraint-Mouse.git"
+         "url" : "git://github.com/hideo55/FormValidator-Lite-Constraint-Mouse.git",
+         "web" : "https://github.com/hideo55/FormValidator-Lite-Constraint-Mouse"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04",
+   "x_contributors" : [
+      "Hiroyuki Akabane <hirobanex@gmail.com>",
+      "hideo55 <hide.o.j55@gmail.com>"
+   ]
 }
