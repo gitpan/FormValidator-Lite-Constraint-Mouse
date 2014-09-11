@@ -1,5 +1,8 @@
 Revision history for Perl extension FormValidator::Lite::Constraint::Mouse
 
+0.05 2014-09-11T17:54:20Z
+    - Fixed violation of CPAN Meta Spec
+
 0.04 2013-06-25T23:10:54Z
     - Switch to Minilla
 
